@@ -1,0 +1,70 @@
+.container1 {
+    direction: ltr; 
+    font: 500 1rem 'Quicksand', sans-serif; 
+} 
+
+.container-task {
+    width: 200px;
+    max-width: 380px;
+    direction: ltr;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin:auto;
+    margin-top: 1rem;
+
+
+}
+
+button{
+    background:  #ec6161;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.buttonDoneTask,
+.buttonUpdateTask,
+.buttonDeleteTask {
+   
+    display: block;
+    width: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background:  #ec6161;
+    transition: 0.2s, black 0.2s;
+    margin-bottom: 0.2rem; 
+}
+
+.buttonDoneTask:hover,
+.buttonUpdateTask:hover,
+.buttonDeleteTask:hover {
+    background:  #ec6161;
+}
+
+.buttonDoneTask:active,
+.buttonUpdateTask:active,
+.buttonDeleteTask:active{
+    transform: scale(0.98);
+}
+
+header{
+    background:  #fff;
+}
+
+header, label{
+    
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

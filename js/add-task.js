@@ -1,0 +1,1 @@
+document.querySelector("#add").addEventListener("click", addTheTask);
